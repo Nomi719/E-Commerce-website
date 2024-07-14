@@ -25,7 +25,7 @@ fetch('https://fakestoreapi.com/products')
                 <div class="crd">
                     <img src=${products.image}alt="loading">
                     <div class="crdtext">
-                        <h2> ${products.title}</h2>
+                        <h2> ${products.title.slice(0,21)}</h2>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -37,7 +37,7 @@ fetch('https://fakestoreapi.com/products')
                 <div class="crd">
                     <img src=${products.image} alt="">
                     <div class="crdtext">
-                        <h2>${products.title}</h2>
+                        <h2>${products.title.slice(0,21)}</h2>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -49,7 +49,7 @@ fetch('https://fakestoreapi.com/products')
                 <div class="crd">
                     <img src=${products.image} alt="">
                     <div class="crdtext">
-                        <h2> ${products.title}</h2>
+                        <h2> ${products.title.slice(0,21)}</h2>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
